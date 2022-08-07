@@ -1,0 +1,80 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+}
+
+
+.VarNavBar{
+	width: 100%;
+	background-color: #000000;
+	overflow: auto;
+}
+
+
+/*VarNavBar Link*/
+.VarNavBar a{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	float: left;
+	background-color: #008b8b;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 12px;
+}
+
+
+.VarNavBar a i{
+	width: 100%;
+}
+
+
+.VarNavBar a:hover{
+	background-color: #008000;
+	color: #ffffff;
+}
+
+
+.Active{
+	background-color: #008b8b;
+	color: #ffffff;
+	cursor: crosshair;
+}
+
+
+/*@media screen and (max-width: 330px) {
+	.VarNavBar{
+		width: 100%;
+		display: block;
+	}
+	.VarNavBar a{
+		width: 97.7%;
+		display: block;
+	}
+	.VarNavBar marquee{
+		width: 95%;
+		font-family: 'New Rocker', cursive;
+		font-size: 99px;
+		background-color: #000000;
+		color: #9acd32;
+	}
+}*/
+
+
+@media screen and (max-width: 1280px){
+	.VarNavBar a{
+		width: 97.7%;
+		display: block;
+	}
+	.VarNavBar marquee{
+		width: 95%;
+		font-family: 'New Rocker', cursive;
+		font-size: 99px;
+		background-color: #000000;
+		color: #9acd32;
+	}
+	.VarNavBar marquee hr{
+		color: #ffffff;
+	}
+}
